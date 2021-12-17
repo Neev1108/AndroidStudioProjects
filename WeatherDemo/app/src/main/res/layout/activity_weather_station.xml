@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WeatherStation" >
+
+  <TextView
+      android:id="@+id/temperature"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:singleLine="true"
+      android:text="Temperature"
+      android:textSize="28sp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/pressure"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:singleLine="true"
+      android:text="Pressure"
+      android:textSize="28sp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/light"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="10dp"
+      android:singleLine="true"
+      android:text="Light"
+      android:textSize="28sp"
+      android:textStyle="bold" />
+
+</LinearLayout>
